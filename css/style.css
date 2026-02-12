@@ -99,7 +99,7 @@ a#toTop {
         
         .header {
           margin-top: 0; /* eliminamos el espacio superior para dejar el logo pegado arriba */
-          padding-top: 60px; /* espacio para que el contenido del header no quede oculto tras el logo */
+          padding-top: 120px; /* espacio aumentado para que el contenido del header no quede oculto tras el logo */
         }
         
         /* LOGO: Posicionado en la esquina superior izquierda del banner */
@@ -125,9 +125,9 @@ a#toTop {
 
 /* Logo imagen: Tamaño pequeño y alineado con el texto */
 .logo h1 a img {
-  width: 40px;
+  width: 130px;
   height: auto;
-  margin-right: 6px;
+  margin-right: 8px;
   vertical-align: middle;
   display: inline-block;
 }
