@@ -88,21 +88,28 @@ a#toTop {
 /*=== 4. HEADER Y NAVEGACIÓN: Logo, contacto y menú principal ==*/
 
 /* BANNER CONTAINER: Fondo y altura del banner principal */
-.banner {
-  background: url(../imageS/GLB\ FONDO\ PALMAS.jpeg) no-repeat 0px -120px;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100px;
-}
-
-.header {
-  margin-top: 4em;
-}
-
-/* LOGO: Estilos del logo "LUXEGO" - Posición a la izquierda */
-.logo {
-  float: left;
-}
+        /* BANNER CONTAINER: Fondo y altura del banner principal */
+        .banner {
+          position: relative; /* necesario para posicionar el logo de forma absoluta dentro del banner */
+          background: url(../images/GLB\ FONDO\ PALMAS.jpeg) no-repeat 0px -120px;
+          background-size: cover;
+          background-attachment: fixed;
+          min-height: 100px;
+        }
+        
+        .header {
+          margin-top: 0; /* eliminamos el espacio superior para dejar el logo pegado arriba */
+          padding-top: 60px; /* espacio para que el contenido del header no quede oculto tras el logo */
+        }
+        
+        /* LOGO: Posicionado en la esquina superior izquierda del banner */
+        .logo {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          float: none;
+          z-index: 999;
+        }
 
 /* Logo texto: Color dorado de la empresa y fuente JockeyOne */
 .logo h1 a {
@@ -118,9 +125,9 @@ a#toTop {
 
 /* Logo imagen: Tamaño pequeño y alineado con el texto */
 .logo h1 a img {
-  width: 200px;
+  width: 40px;
   height: auto;
-  margin-right: 100px;
+  margin-right: 6px;
   vertical-align: middle;
   display: inline-block;
 }
