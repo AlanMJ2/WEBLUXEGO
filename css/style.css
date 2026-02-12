@@ -91,10 +91,10 @@ a#toTop {
         /* BANNER CONTAINER: Fondo y altura del banner principal */
         .banner {
           position: relative; /* necesario para posicionar el logo de forma absoluta dentro del banner */
-          background: url(../images/GLB\ FONDO\ PALMAS.jpeg) no-repeat 0px -120px;
+          background: url(../images/GLB\ FONDO\ PALMAS.jpeg) no-repeat 0px -220px;
           background-size: cover;
           background-attachment: fixed;
-          min-height: 100px;
+          min-height: 500px;
         }
         
         .header {
@@ -111,7 +111,7 @@ a#toTop {
           z-index: 999;
         }
 
-/* Logo texto: Color dorado de la empresa y fuente JockeyOne */
+/* Logo texto: Color dorado de la empresa y fuente Oswald-bold */
 .logo h1 a {
   color: #d39c3a;
   text-decoration: none;
@@ -196,23 +196,31 @@ a#toTop {
 }
 
 .navbar-default ul li a {
-  display: block;
+  display: inline-block;
   color: #fff;
   text-decoration: none;
-  padding: 0 2em 0 0;
+  padding: 0;
+  margin-right: 8px;
 }
 
 ul.navbar-nav li.active a {
   background: none!important;
-  color: #F66C53!important;
+  color: #d39c3a!important;
 }
 
+/* BOTONES DE NAVEGACIÓN: fondo dorado y texto blanco */
 .navbar-default .navbar-nav>li>a {
+  background: #d39c3a; /* dorado */
   color: #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
-  color: #F66C53;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li.active>a {
+  background: #b77929; /* dorado más oscuro al pasar */
+  color: #fff;
 }
 
 .navbar-collapse {
@@ -220,7 +228,7 @@ ul.navbar-nav li.active a {
 }
 
 .navbar {
-  margin: 4em 0;
+  margin: 0.5em 0; /* menú más arriba */
 }
 
 
@@ -2922,5 +2930,28 @@ figure.effect-hera:hover p i:empty {
   }
   .search form {
     margin-top: 1em;
+  }
+}
+
+/* Centrar la barra de inicio en la parte superior (sólo desktop) */
+@media (min-width: 768px) {
+  .navbar {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: none;
+    width: auto;
+  }
+
+  .navbar .navbar-nav {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .navbar .navbar-nav > li {
+    float: left;
   }
 }
