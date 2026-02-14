@@ -138,6 +138,10 @@ a#toTop {
 
 .top_details {
   float: right;
+  position: absolute;
+  right: 15px;
+  top: 45px;
+  margin: 0;
 }
 
 .top_details p {
@@ -153,6 +157,7 @@ a#toTop {
   display: inline-block;
   margin-right: 5px;
   vertical-align: text-bottom;
+  filter: brightness(1.2) hue-rotate(45deg) saturate(1.5);
 }
 
 .search {
@@ -239,8 +244,8 @@ ul.navbar-nav li.active a {
 
 .banner-info {
   text-align: right;
-  margin: 7em 0 0 auto;
-  width: 80%;
+  margin: 10em 0 0 auto;
+  width: 30%;
 }
 
 .banner-info h3 {
@@ -250,6 +255,15 @@ ul.navbar-nav li.active a {
   font-weight: 300;
   padding-bottom: 0.5em;
   line-height: 1.2em;
+}
+
+.banner-info h4 {
+  color: #FFF;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-bottom: 0.5em;
+  line-height: 1.4em;
 }
 
 .banner-info p {
