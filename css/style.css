@@ -525,7 +525,7 @@ ul.navbar-nav li.active a {
 
 .welcome_info h4 {
   font-size: 1.2em;
-  color: #333;
+  color: #000000;
   font-weight: 500;
   margin: 2em 0;
   font-family: 'Ubuntu-Medium';
@@ -535,14 +535,14 @@ ul.navbar-nav li.active a {
   font-size: 0.87em;
   line-height: 1.9em;
   margin-top: 1em;
-  color: #7B7B7B;
+  color: #252525;
 }
 
 .welcome_info a {
   color: #fff;
   font-size: 1em;
   font-weight: 400;
-  background: #F66C53;
+  background: #d39c3a;
   text-decoration: none;
   padding: 0.8em 2em;
   margin-top: 2em;
@@ -601,7 +601,7 @@ ul.navbar-nav li.active a {
 }
 
 .auto_sec_left h4 {
-  color: #5C5C5B;
+  color: #000000;
   font-size: 1.1em;
   margin-bottom: 0.5em;
   font-weight: 600;
@@ -714,7 +714,7 @@ a.more {
   color: #fff;
   font-size: 0.95em;
   font-weight: 400;
-  background: #F66C53;
+  background: #d39c3a;
   text-decoration: none;
   padding: 0.5em 1.5em;
   margin-top: 1em;
