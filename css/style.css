@@ -145,7 +145,7 @@ a#toTop {
 }
 
 .top_details p {
-  color: #fff;
+  color: #D39C3A;
   font-size: 1.6em;
   margin-bottom: 0.5em;
 }
@@ -885,8 +885,8 @@ a.more {
   color: #fff;
   outline: none;
   padding: 6.5px 8px;
-  background: #d35400;
-  border: 2px solid #d35400;
+  background: #d39c3a;
+  border: 2px solid #d39c3a;
   margin-top: 0.5em;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -939,7 +939,7 @@ a.more {
 }
 
 .ftr2-grid a:hover {
-  color: #F66C53;
+  color: #d39c3a;
 }
 
 .ftr2-grid3 {
@@ -1181,7 +1181,7 @@ a i.google:hover {
 .gallery-top h2,
 .contact-top h2,
 h3.type {
-  color: #F66C54;
+  color: #D39C3A;
   text-align: center;
   font-size: 2.5em;
   font-weight: 600;
@@ -1213,7 +1213,7 @@ h3.type {
   color: #fff;
   font-size: 0.9em;
   font-weight: 400;
-  background: #F66C53;
+  background: #D39C3A;
   text-decoration: none;
   padding: 0.6em 2em;
   margin-top: 1.4em;
@@ -1227,7 +1227,7 @@ h3.type {
 
 .number {
   float: left;
-  background: #F66C53;
+  background: #D39C3A;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
@@ -1275,7 +1275,7 @@ h3.type {
   margin-top: 5px;
   padding: 10px 15px;
   display: inline-block;
-  background: #F66C53;
+  background: #D39C3A;
   color: #FFF;
   outline: 0;
 }
@@ -1289,7 +1289,7 @@ h3.type {
 }
 
 .works h3 {
-  color: #EB523D;
+  color: #D39C3A;
   margin-bottom: 1em;
   font-size: 2em;
   text-align: center;
