@@ -150,6 +150,16 @@ a#toTop {
   margin-bottom: 0.5em;
 }
 
+.top_details p a {
+  color: #D39C3A;
+  text-decoration: none;
+}
+
+.top_details p a:hover {
+  color: #D39C3A;
+  text-decoration: underline;
+}
+
 .top_details p span {
   background: url(../images/phn.png) no-repeat 0px 0px;
   width: 25px;
@@ -1342,6 +1352,20 @@ h3.type {
 .listimg {
   display: block;
   float: left;
+}
+
+/* Iconos numéricos dorados para la sección de servicios */
+.services .service-number {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #D39C3A;
+  color: #FFF;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .list_2_of_1 {
